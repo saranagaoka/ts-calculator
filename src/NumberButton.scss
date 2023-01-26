@@ -1,0 +1,19 @@
+@import "./global.scss";
+
+.numberButton {
+  background-color: $darkest-blue;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid $light-blue;
+  box-shadow: 2px 2px $lightest-blue;
+}
+
+.numberButton:hover {
+  transform: scale(0.8);
+  box-shadow: none;
+}
